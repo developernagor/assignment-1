@@ -327,6 +327,52 @@ body{
 
 /* Next target section styles start */
 
+.next-target-content{
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.next-target p{
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+.next-card-1,.next-card-2,.next-card-3{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+.next-image{
+    width: 100px;
+    margin-right: 30px;
+}
+.next-content{
+    width: 500px;
+    text-align: left;
+    margin: 0 30px;
+}
+.next-content h3{
+    font-size: 24px;
+    font-weight: 600;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.next-target p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.next-content a{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    padding-bottom: 15px;
+}
 /* Next target section styles end */
 
 
