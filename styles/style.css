@@ -58,14 +58,15 @@ body{
     font-weight: 800;
 }
 
-.navbar-items button a{
+.navbar-items a button{
     text-decoration: none;
     font-size: 15px;
     color: #0D1321;
     font-weight: 600;
+    padding: 12px 15px;
 }
 .navbar-items button{
-    padding: 12px 15px;
+    
     border: 1px solid black;
     border-radius: 8px;
 }
@@ -75,6 +76,38 @@ body{
 
 /* Banner section styles start */
 
+.banner{
+    text-align: center;
+    border: 1px solid red;
+    background-image: url(../assets/Hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+.banner-content{
+    width: 700px;
+    margin: 0 auto;
+
+}
+.banner-content h1{
+    font-size: 32px;
+    line-height: 42px;
+    padding: 8px 0;
+    font-weight: 900;
+}
+.banner-content p{
+    font-size: 14px;
+    line-height: 20px;
+    padding: 18px 0;
+}
+.banner-content button{
+    color: #fff;
+    background-color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+}
 /* Banner section styles end */
 
 
