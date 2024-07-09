@@ -112,6 +112,54 @@ body{
 
 
 /* Development section styles start */
+.development{
+    padding: 50px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(13,19,33,.04);
+}
+.development p{
+    line-height: 30px;
+}
+
+.dev-cards{
+    padding: 20px;
+}
+.card-item-1, .card-item-2, .card-item-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: left;
+    margin: 15px 0;
+}
+.card-item-1, .card-item-3{
+    border-radius: 20px 0 0 20px;
+    background-image: linear-gradient(to left, transparent , white);
+}
+.card-item-2{
+    border-radius: 0 20px 20px 0;
+    background-image: linear-gradient(to right, transparent , white);
+}
+.card-image-1, .card-image-3{
+    padding-left: 30px;
+}
+.card-image-2{
+    padding-right: 30px;
+}
+.card-content{
+    padding: 0 20px;
+}
+.card-content p{
+    padding: 15px 0;
+    font-size: 18px;
+    line-height: 25px;
+}
+.card-content button{
+    font-size: 15px;
+    padding: 10px 15px;
+    font-weight: 600;
+}
 
 /* Development section styles end */
 
