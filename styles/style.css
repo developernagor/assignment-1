@@ -74,11 +74,11 @@ body{
 
 
 
-/* Banner section styles start */
 
+
+/* Banner section styles start */
 .banner{
     text-align: center;
-    border: 1px solid red;
     background-image: url(../assets/Hero-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -111,12 +111,19 @@ body{
 /* Banner section styles end */
 
 
+
+
 /* Development section styles start */
 .development{
     padding: 50px;
     border-radius: 15px;
     text-align: center;
     background-color: rgba(13,19,33,.04);
+}
+.dev-content{
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
 }
 .development p{
     line-height: 30px;
@@ -159,12 +166,40 @@ body{
     font-size: 15px;
     padding: 10px 15px;
     font-weight: 600;
+    background-color: #fff;
 }
-
 /* Development section styles end */
 
 
+
+
 /* My Inspiration section styles start */
+.my-inspiration{
+    
+}
+.inspiration-content{
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.inspiration-content p{
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+
+.inspiration-video{
+    max-width: 1070px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+}
+.inspiration-video iframe{
+    /* width: 1000px; */
+    /* height: 500px; */
+    padding: 35px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
 
 /* My Inspiration section styles end */
 
