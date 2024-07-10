@@ -17,7 +17,7 @@ body{
 
 
 /* shared style */
-.navbar, .banner, .footer{
+.navbar, .banner, footer{
     max-width: 1350px;
     margin: 0 auto;
 }
@@ -436,6 +436,36 @@ input[type=submit] {
 
 
 /* Footer section styles start */
+footer{
+    height: 50px;
+    background-color: rgba(13,19,33,.03);
+    border-radius: 8px;
+    padding: 50px 0;
+    display: flex;
+    
+}
+.footer{
+    max-width: 1070px;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* padding: 0px;
+    padding-bottom: 60px; */
+    
+}
+.footer-content{
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 500px;
+    
+}
+.footer-image{
+
+}
+.footer-image img{
+    margin-left: 10px;
+}
 
 /* Footer section styles end */
 
