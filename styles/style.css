@@ -376,8 +376,62 @@ body{
 /* Next target section styles end */
 
 
-/* Support section styles start */
 
+/* Support section styles start */
+.support{
+    /* border: 1px solid red; */
+    padding: 50px;
+    /* background-color: #6DB3F2; */
+    background-image: url(../assets/handshake.jpg);
+    /* background-image: url(../assets/handshake.jpg),rgba(0, 0, 255, 0.01); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 260px;
+    background-position: right center, left center;
+    border-radius: 8px;
+}
+.support-content{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.support h1{
+    color: #fff;
+    padding-bottom: 10px;
+}
+.support-content p{
+    font-size: 15px;
+    line-height: 22px;
+    padding-bottom: 12px;
+    color: #fff;
+}
+.support-input{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+input[type=text] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
 /* Support section styles end */
 
 
