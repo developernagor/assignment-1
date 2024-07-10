@@ -64,6 +64,7 @@ body{
     color: #0D1321;
     font-weight: 600;
     padding: 12px 15px;
+    cursor: pointer;
 }
 .navbar-items button{
     
@@ -96,8 +97,8 @@ body{
     font-weight: 900;
 }
 .banner-content p{
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 25px;
     padding: 18px 0;
 }
 .banner-content button{
@@ -125,8 +126,11 @@ body{
     text-align: center;
     margin: 0 auto;
 }
+.dev-content p{
+    font-size: 20px;
+}
 .development p{
-    line-height: 30px;
+    line-height: 25px;
 }
 
 .dev-cards{
@@ -159,7 +163,7 @@ body{
 }
 .card-content p{
     padding: 15px 0;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 25px;
 }
 .card-content button{
@@ -183,7 +187,8 @@ body{
     margin: 0 auto;
 }
 .inspiration-content p{
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 25px;
     padding-bottom: 30px;
 }
 
@@ -217,7 +222,8 @@ body{
 }
 
 .current-target p{
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 25px;
     padding-bottom: 30px;
 }
 
@@ -247,9 +253,10 @@ body{
     padding-bottom: 15px;
 }
 .language-card-1 p{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     padding-bottom: 15px;
+    line-height: 25px;
 }
 .language-card-1 a{
     font-size: 18px;
@@ -280,7 +287,8 @@ body{
     padding-bottom: 15px;
 }
 .language-card-2 p{
-    font-size: 16px;
+    font-size: 20px;
+    line-height: 25px;
     font-weight: 400;
     padding-bottom: 15px;
 }
@@ -312,9 +320,10 @@ body{
     padding-bottom: 15px;
 }
 .language-card-3 p{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     padding-bottom: 15px;
+    line-height: 25px;
 }
 .language-card-3 a{
     font-size: 18px;
@@ -333,7 +342,8 @@ body{
     margin: 0 auto;
 }
 .next-target p{
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 25px;
     padding-bottom: 30px;
 }
 .next-card-1,.next-card-2,.next-card-3{
@@ -363,12 +373,13 @@ body{
     padding-bottom: 15px;
 }
 .next-target p{
-    font-size: 16px;
+    font-size: 20px;
+    line-height: 25px;
     font-weight: 400;
     padding-bottom: 15px;
 }
 .next-content a{
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 600;
     color: black;
     padding-bottom: 15px;
@@ -386,14 +397,24 @@ body{
     /* background-image: url(../assets/handshake.jpg),rgba(0, 0, 255, 0.01); */
     background-size: cover;
     background-repeat: no-repeat;
-    height: 260px;
+    height: 310px;
     background-position: right center, left center;
     border-radius: 8px;
+    position: relative;
+}
+#support{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .support-content{
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
+    padding-top: 50px;
 
 }
 .support h1{
@@ -401,10 +422,10 @@ body{
     padding-bottom: 10px;
 }
 .support-content p{
-    font-size: 15px;
-    line-height: 22px;
+    font-size: 18px;
+    line-height: 25px;
     padding-bottom: 12px;
-    color: #fff;
+    color: #ddd;
 }
 .support-input{
     max-width: 800px;
@@ -419,14 +440,15 @@ input[type=text] {
     border: 1px solid #ccc;
     border-radius: 8px;
     box-sizing: border-box;
-    font-size: 17px;
+    font-size: 22px;
 }
 
 input[type=submit] {
     width: 20%;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    font-size: 25px;
+    font-size: 22px;
+    font-weight: 600;
     padding: 10px;
     border: none;
     border-radius: 8px;
